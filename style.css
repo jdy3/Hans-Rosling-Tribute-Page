@@ -7,13 +7,8 @@ body {
 
 @media (max-width: 750px) {
   body {
-  font-size: 25px;
+    font-size: 25px;
   }
-}
-
-#main {
-  display: flex;
-  flex-direction: column;
 }
 
 #circle {
@@ -40,7 +35,7 @@ body {
   font-size: 0.7em;
   text-align: center;
   padding-top: 1em;
-}
+ }
 
 hr {
   margin: 1em;
@@ -73,6 +68,12 @@ ul {
   font-size: 0.5em;
   padding: 1em 4em 3.5em 10em;
   }
+
+@media (max-width: 750px) {
+  ul {
+    padding: 0.5em 2em 1.75em 5em;
+  }
+}
 
 blockquote {
   color: rgb(135, 135, 135);
