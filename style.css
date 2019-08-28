@@ -11,6 +11,11 @@ body {
   }
 }
 
+#main {
+  display: flex;
+  flex-direction: column;
+}
+
 #circle {
   display: flex;
   margin: auto;
