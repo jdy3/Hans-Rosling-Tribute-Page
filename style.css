@@ -90,6 +90,10 @@ blockquote {
   padding-top: 1.5em;
 }
 
+q {
+  text-align: center;
+}
+
 #author {
   align-self: flex-end;
   font-size: 0.8em;
