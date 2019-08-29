@@ -7,6 +7,7 @@ body {
 #main {
   display: flex;
   flex-direction: column;
+  align-items: center;
   font-size: 50px;
   }
 
@@ -18,7 +19,6 @@ body {
 
 #circle {
   display: flex;
-  margin: auto;
   justify-content: center;
   align-items: center;
   background-color: rgba(135, 135, 135, 0.3);
@@ -31,28 +31,14 @@ body {
   margin-top: 1em;
   }
 
-/*@media (max-width: 750px) {
-  #circle {
-    margin-top: 0.5em;
-  }
-}*/
-
 #title {
-  text-align: center;
   font-size: 1em;
   }
 
 #strapline {
   font-size: 0.7em;
-  text-align: center;
   padding-top: 1em;
  }
-
-/*@media (max-width: 750px) {
-  #strapline {
-    padding-top: 0.5em;
-  }
-}*/
 
 hr {
   margin: 1em;
@@ -60,89 +46,54 @@ hr {
   font-size: 1em;
 }
 
-/*@media (max-width: 750px) {
-  hr {
-    margin: 0.5em;
-  }
-}*/
+#img-div {
+  display: flex;
+  flex-direction: column;
+}
 
 #image {
 max-width: 100%;
 display: block;
 height: auto;
-margin: auto;
 }
 
 #img-caption {
   color: rgb(135, 135, 135);
   font-size: 0.4em;
   padding-top: 0.5em;
-  text-align: center;
-}
-
-/*@media (max-width: 750px) {
-  #img-caption {
-    padding-top: 0.25em
+  align-self: center;
   }
-}*/
 
 #sub-heading {
-  text-align: center;
-  font-size: 0.7em;
-  padding-top: 1.5em;
+  font-size: 0.65em;
+  padding-top: 0.5em;
 }
-
-/*@media (max-width: 750px) {
-  #sub-heading {
-    padding-top: 0.75em;
-  }
-}*/
 
 ul {
   line-height: 2em;
-  font-size: 0.5em;
-  padding: 1em 4em 3.5em 10em;
+  font-size: 0.45em;
+  padding-left: 8em;
+  padding-right: 6em;
   }
-
-@media (max-width: 750px) {
-  ul {
-    padding: 0.5em 2em 1.75em 5em;
-  }
-}
 
 blockquote {
+  display: flex;
+  flex-direction: column;
   color: rgb(135, 135, 135);
-  text-align: center;
   font-size: 0.6em;
+  padding-top: 1.5em;
 }
 
 #author {
-  text-align: right;
-  font-size: 0.7em;
-  padding-top: 1.5em;
-  padding-right: 2em;
-}
-
-/*@media (max-width: 750px) {
-  #author {
-    padding-top: 0.75em;
-    padding-right: 1em;
+  align-self: flex-end;
+  font-size: 0.8em;
+  padding: 0.9em;
   }
-}*/
 
 p {
   font-size: 0.5em;
-  text-align: center;
-  padding-top: 3em;
-  padding-bottom: 1em;
+  padding: 1em;
 }
-
-/*@media (max-width: 750px) {
-  p {
-    padding-top: 1.5em;
-    padding-bottom: 0.5em;
-  }
-}*/
 
 a:hover {
   color: rgb(0, 0, 255)
